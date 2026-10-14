@@ -1,0 +1,11 @@
+title: "Gen-AA Shared Task"
+tagline: "Generalisable Authorship Attribution in Human and LLM-Generated Texts"
+description: "INLG shared task on authorship attribution across human and LLM-generated books: multilingual, unified, and out-of-distribution."
+url: "https://gen-aa.github.io"
+baseurl: ""
+contact_email: "TODO-contact-email@example.com"
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

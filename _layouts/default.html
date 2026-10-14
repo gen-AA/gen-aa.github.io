@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.url != "/" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="{{ '/' | relative_url }}">Gen-AA</a>
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/tasks/' | relative_url }}">Tasks</a>
+        <a href="{{ '/data/' | relative_url }}">Data &amp; Evaluation</a>
+        <a href="{{ '/timeline/' | relative_url }}">Important Dates</a>
+        <a href="{{ '/organizers/' | relative_url }}">Organizers</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap content">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Contact: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></p>
+      <p>Powered by <a href="https://jekyllrb.com/">Jekyll</a> &amp; <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>
