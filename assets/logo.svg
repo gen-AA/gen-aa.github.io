@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Gen-AA">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e40af"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <text x="32" y="38" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="800" font-size="26" fill="#ffffff">AA</text>
+  <rect x="14" y="46" width="36" height="3" rx="1.5" fill="#ffffff" opacity="0.9"/>
+  <rect x="14" y="52" width="24" height="3" rx="1.5" fill="#ffffff" opacity="0.6"/>
+</svg>
